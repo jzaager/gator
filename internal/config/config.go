@@ -25,9 +25,6 @@ func Read() (Config, error) {
 	if err != nil {
 		return Config{}, fmt.Errorf("Error reading home dir: %w", err)
 	}
-	fmt.Println(".....")
-	fmt.Println("Reading file at: " + configFilePath)
-	fmt.Println(".....")
 
 	file, err := os.Open(configFilePath)
 	if err != nil {
