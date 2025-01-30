@@ -15,4 +15,4 @@ SELECT * FROM users WHERE name=$1 LIMIT 1;
 SELECT * FROM users;
 
 -- name: DeleteUsers :exec
-TRUNCATE TABLE users;
+TRUNCATE TABLE users CASCADE;
