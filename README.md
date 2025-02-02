@@ -28,7 +28,6 @@ Create a .gatorconfig.json file in your home directory. The config file should s
 ```json
 {
   "db_url": "postgres://username:password@host:5432/database?sslmode=disable",
-  "current_user": "name"
 }
 ```
 You will need to configure and replace the db_url with your own local postgres instance. [Postgres documentation](https://www.postgresql.org/docs/)
